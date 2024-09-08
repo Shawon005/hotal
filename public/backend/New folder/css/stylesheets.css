@@ -1,0 +1,146 @@
+@import "bootstrap/bootstrap.min.css";
+@import "jquery/jquery-ui.min.css";
+
+@import "icons/font-awesome.min.css";
+
+@import "mcustomscrollbar/jquery.mCustomScrollbar.css";
+@import "select2/select2.css";
+
+@import "shbrush/shCoreDefault.css";
+@import "shbrush/shThemeDefault.css";
+
+@import "cleditor/jquery.cleditor.css";
+@import "codemirror/codemirror.css";
+@import "validationengine/validationEngine.css";
+
+@import "fancybox/jquery.fancybox.css";
+
+@import "fullcalendar/fullcalendar.css";
+
+@import "elfinder/elfinder.min.css";
+@import "filetree/jqueryFileTree.css";
+
+@import "stylesheet.css";
+@import "backgrounds.css";
+@import "themes.css";
+@import "mystyles.css";
+#s2id_multiple-select-field{
+    width: 100%;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {    
+    
+}
+
+@media only screen and (min-width : 321px) {
+    
+}
+
+@media only screen and (max-width : 320px) {
+    
+}
+
+@media only screen and (max-width: 767px){
+    .container{padding-left: 0px; padding-right: 0px;}
+        .row{margin-left: 0px; margin-right: 0px;}
+        
+    .navbar{-moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px;}
+    .navbar-collapse{background: #444; border: 0px;}
+        .navbar-collapse .nav,.navbar-collapse .nav li a{border: 0px; width: 100%; text-align: left;}        
+        .navbar-collapse .navbar-form {float: left; width: 100%; margin: 0px;}
+            .navbar-collapse .navbar-form .form-group{padding: 2px 5px;}
+            
+        .navbar-nav .open .dropdown-menu{width: 100%; float: left;}
+        .navbar-nav .open .dropdown-menu > li > a{padding: 8px 15px 8px 25px;}
+            .navbar-nav .open .dropdown-menu > li > a:hover{background: url('../img/background/bt_cubs_a.png') left top repeat transparent;}
+                .dropdown-menu > li > a .icon-angle-right{display: none;}
+                
+        .navbar-collapse .dropdown-submenu{position: relative; display: block; float: left; left: auto; background: transparent; padding-left: 25px;
+                                           -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; width: 100%;}
+    .registration-block{width: auto;}    
+    
+    .block > div,.block.block-drop-shadow{-moz-border-radius: 0px !important; -webkit-border-radius: 0px !important; border-radius: 0px !important;}
+}
+
+@media only screen and (max-width: 768px){
+    .row > [class^='col-xs-'], .row > [class^='col-sm-'], .row > [class^='col-md-'], .row > [class^='col-lg-']{margin-bottom: 10px; padding-left: 0px; padding-right: 0px;}
+    
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    
+}
+
+@media only screen and (max-width: 992px){
+    
+}
+
+@media only screen and (max-width: 1024px) {
+.block .user{padding: 35px 10px;}
+    .container.container-fixed{width: auto; max-width: auto !important;}
+    
+
+}
+
+@media only screen and (max-width: 1279px) {
+    
+}
+
+/* dashdroud */
+.page-content-white a{
+    color:#285cd7;
+}
+.box{
+    border: 3px solid black;
+    margin: 0 0 15px;
+}
+.box-1st{
+    
+    font-size: 33px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0 20px;
+}
+.box-2nd{
+    background: #4B6F86;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 0 12px;
+}
+.box-3rd{
+    
+    color: #2230cb;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 0 5px;
+}
+.room-category-level {
+    margin-bottom: 20px;
+}
+
+.room-available-room-level:after {
+    content: "";
+    display: block;
+    width: 98%;
+    height: 2px;
+    background: #000;
+    bottom: -5px;
+    position: absolute;
+}
+.room-category-level:after {
+    content: "";
+    display: block;
+    width: 195px;
+    height: 2px;
+    background: #000;
+    bottom: -5px;
+    position: absolute;
+}
+.room {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}

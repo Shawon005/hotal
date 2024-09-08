@@ -1,0 +1,11 @@
+.room_list {
+    background: #fff;
+    border: 1px solid #eaeaea;
+}
+
+.room_list .room_price {
+    background: #fff;
+}
+/* body{
+    background: url('../images/bg_num1.jpg') !important;
+} */
